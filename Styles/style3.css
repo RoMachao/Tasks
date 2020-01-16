@@ -1,7 +1,5 @@
 *{
     margin: 0px;
-    font: white;
- 
 }
 #portada{
     width: 100%;
@@ -44,11 +42,9 @@ nav> a:hover{
     color: black;
     border: 3px solid;
     }
-
-}
 main{
     display: inline;
-    position: relative;
+    position: flex;
     width: 50%;
     background-color: white;
 }
@@ -87,9 +83,6 @@ div{
     background: white;
     display: inline-block;
 }
-.table2{
-    font: white;
-}
 body{
     background-color: black;
 }
@@ -106,7 +99,10 @@ h3{
 }
 div> p{
     margin-bottom: 20px;
-    color: aliceblue;
+    color: black;
+    background-color: aliceblue;
+    text-align: center;
+    
     }
 p{
      color: aliceblue;
@@ -118,10 +114,36 @@ header{
     height: 30vh;
 }
 .list{
-    font: white;
     background-color: aliceblue;
 }
 .list2{
-    font: white;
     background-color: aliceblue;
+}
+li{
+    margin-left: 2vw;
+    margin-bottom: 10px;
+}
+b{
+    margin-left: 0vh;
+}
+#first{
+    margin-left: 10px;
+}
+#second{
+    margin-left: 0px;
+}
+#fourth{
+    margin-left: -2vw;
+}
+dl{
+    font-weight: bold;
+    color: black;
+}
+.list4{
+    color: black;
+    font-size: 16px;
+    list-style-type: none;
+}
+dd{
+    font-weight: lighter;
 }
